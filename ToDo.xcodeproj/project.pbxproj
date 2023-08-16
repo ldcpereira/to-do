@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76652C932A38B80000C162B0 /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76652C922A38B80000C162B0 /* ToDoApp.swift */; };
+		76652C952A38B80000C162B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76652C942A38B80000C162B0 /* ContentView.swift */; };
+		76652C972A38B80500C162B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76652C962A38B80500C162B0 /* Assets.xcassets */; };
+		76652C9A2A38B80500C162B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76652C992A38B80500C162B0 /* Preview Assets.xcassets */; };
+		76652CA22A38B8A500C162B0 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 76652CA12A38B8A500C162B0 /* GoogleMobileAds */; };
+		76652CA62A38B8D200C162B0 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CA42A38B8D100C162B0 /* EventKit.framework */; };
+		76652CA72A38B8D200C162B0 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CA52A38B8D200C162B0 /* EventKitUI.framework */; };
+		76652CAB2A38B8F000C162B0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CAA2A38B8EF00C162B0 /* AdSupport.framework */; };
+		76652CAD2A38B8FB00C162B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CAC2A38B8FA00C162B0 /* AudioToolbox.framework */; };
+		76652CAF2A38B90300C162B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CAE2A38B90300C162B0 /* CoreGraphics.framework */; };
+		76652CB12A38B90D00C162B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CB02A38B90C00C162B0 /* CoreTelephony.framework */; };
+		76652CB32A38B91500C162B0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CB22A38B91400C162B0 /* CoreMedia.framework */; };
+		76652CB52A38B91C00C162B0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CB42A38B91C00C162B0 /* MessageUI.framework */; };
+		76652CB72A38B92400C162B0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CB62A38B92400C162B0 /* StoreKit.framework */; };
+		76652CB92A38B92C00C162B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76652CB82A38B92B00C162B0 /* SystemConfiguration.framework */; };
+		76652CC02A38C6E500C162B0 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76652CBF2A38C6E500C162B0 /* RewardedAd.swift */; };
+		76652CC22A38E00E00C162B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76652CC12A38E00D00C162B0 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76652C8F2A38B80000C162B0 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76652C922A38B80000C162B0 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
+		76652C942A38B80000C162B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76652C962A38B80500C162B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76652C992A38B80500C162B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76652CA42A38B8D100C162B0 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		76652CA52A38B8D200C162B0 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		76652CA82A38B8E200C162B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		76652CAA2A38B8EF00C162B0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		76652CAC2A38B8FA00C162B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		76652CAE2A38B90300C162B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76652CB02A38B90C00C162B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		76652CB22A38B91400C162B0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		76652CB42A38B91C00C162B0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		76652CB62A38B92400C162B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		76652CB82A38B92B00C162B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		76652CBA2A38BC8300C162B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		76652CBF2A38C6E500C162B0 /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
+		76652CC12A38E00D00C162B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76652C8C2A38B80000C162B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76652CAB2A38B8F000C162B0 /* AdSupport.framework in Frameworks */,
+				76652CA62A38B8D200C162B0 /* EventKit.framework in Frameworks */,
+				76652CB32A38B91500C162B0 /* CoreMedia.framework in Frameworks */,
+				76652CAF2A38B90300C162B0 /* CoreGraphics.framework in Frameworks */,
+				76652CB12A38B90D00C162B0 /* CoreTelephony.framework in Frameworks */,
+				76652CB52A38B91C00C162B0 /* MessageUI.framework in Frameworks */,
+				76652CA72A38B8D200C162B0 /* EventKitUI.framework in Frameworks */,
+				76652CA22A38B8A500C162B0 /* GoogleMobileAds in Frameworks */,
+				76652CAD2A38B8FB00C162B0 /* AudioToolbox.framework in Frameworks */,
+				76652CB92A38B92C00C162B0 /* SystemConfiguration.framework in Frameworks */,
+				76652CB72A38B92400C162B0 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76652C862A38B80000C162B0 = {
+			isa = PBXGroup;
+			children = (
+				76652C912A38B80000C162B0 /* ToDo */,
+				76652C902A38B80000C162B0 /* Products */,
+				76652CA32A38B8D000C162B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76652C902A38B80000C162B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76652C8F2A38B80000C162B0 /* ToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76652C912A38B80000C162B0 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				76652CBA2A38BC8300C162B0 /* Info.plist */,
+				76652C922A38B80000C162B0 /* ToDoApp.swift */,
+				76652C942A38B80000C162B0 /* ContentView.swift */,
+				76652C962A38B80500C162B0 /* Assets.xcassets */,
+				76652C982A38B80500C162B0 /* Preview Content */,
+				76652CBF2A38C6E500C162B0 /* RewardedAd.swift */,
+				76652CC12A38E00D00C162B0 /* ViewController.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		76652C982A38B80500C162B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76652C992A38B80500C162B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76652CA32A38B8D000C162B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76652CB82A38B92B00C162B0 /* SystemConfiguration.framework */,
+				76652CB62A38B92400C162B0 /* StoreKit.framework */,
+				76652CB42A38B91C00C162B0 /* MessageUI.framework */,
+				76652CB22A38B91400C162B0 /* CoreMedia.framework */,
+				76652CB02A38B90C00C162B0 /* CoreTelephony.framework */,
+				76652CAE2A38B90300C162B0 /* CoreGraphics.framework */,
+				76652CAC2A38B8FA00C162B0 /* AudioToolbox.framework */,
+				76652CAA2A38B8EF00C162B0 /* AdSupport.framework */,
+				76652CA82A38B8E200C162B0 /* AVFoundation.framework */,
+				76652CA42A38B8D100C162B0 /* EventKit.framework */,
+				76652CA52A38B8D200C162B0 /* EventKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76652C8E2A38B80000C162B0 /* ToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76652C9D2A38B80500C162B0 /* Build configuration list for PBXNativeTarget "ToDo" */;
+			buildPhases = (
+				76652C8B2A38B80000C162B0 /* Sources */,
+				76652C8C2A38B80000C162B0 /* Frameworks */,
+				76652C8D2A38B80000C162B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDo;
+			packageProductDependencies = (
+				76652CA12A38B8A500C162B0 /* GoogleMobileAds */,
+			);
+			productName = ToDo;
+			productReference = 76652C8F2A38B80000C162B0 /* ToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76652C872A38B80000C162B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					76652C8E2A38B80000C162B0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 76652C8A2A38B80000C162B0 /* Build configuration list for PBXProject "ToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76652C862A38B80000C162B0;
+			packageReferences = (
+				76652CA02A38B8A400C162B0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 76652C902A38B80000C162B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76652C8E2A38B80000C162B0 /* ToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76652C8D2A38B80000C162B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76652C9A2A38B80500C162B0 /* Preview Assets.xcassets in Resources */,
+				76652C972A38B80500C162B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76652C8B2A38B80000C162B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76652C952A38B80000C162B0 /* ContentView.swift in Sources */,
+				76652CC02A38C6E500C162B0 /* RewardedAd.swift in Sources */,
+				76652CC22A38E00E00C162B0 /* ViewController.swift in Sources */,
+				76652C932A38B80000C162B0 /* ToDoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76652C9B2A38B80500C162B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76652C9C2A38B80500C162B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76652C9E2A38B80500C162B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = W927R9WWS8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = LPEnterprise.ToDo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76652C9F2A38B80500C162B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = W927R9WWS8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = LPEnterprise.ToDo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76652C8A2A38B80000C162B0 /* Build configuration list for PBXProject "ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76652C9B2A38B80500C162B0 /* Debug */,
+				76652C9C2A38B80500C162B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76652C9D2A38B80500C162B0 /* Build configuration list for PBXNativeTarget "ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76652C9E2A38B80500C162B0 /* Debug */,
+				76652C9F2A38B80500C162B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76652CA02A38B8A400C162B0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76652CA12A38B8A500C162B0 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76652CA02A38B8A400C162B0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 76652C872A38B80000C162B0 /* Project object */;
+}
